@@ -14,9 +14,10 @@ Pod::Spec.new do |goSellSDK|
 
 
     goSellSDK.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    
   }
-    goSellSDK.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    goSellSDK.user_target_xcconfig = { 
+     }
 
 	goSellSDK.default_subspec		= 'Core'
 	
